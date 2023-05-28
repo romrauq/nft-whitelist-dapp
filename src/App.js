@@ -236,10 +236,11 @@ function App() {
 					<h1 style={title_styles}>Welcome to Crypto Devs!</h1>
 					<div style={description_styles}>
 						{/* Using HTML Entities for the apostrophe */}
-						We are offering a of interesting NTFs collections for developers in Crypto.
+						We are offering a collection interesting NTFs collections for developers in
+						Crypto.
 					</div>
 					<div style={description_styles}>
-						{numberOfWhitelisted} have already joined the Whitelist
+						Total members in the Whitelist: {numberOfWhitelisted}
 					</div>
 					{renderButton()}
 				</div>
